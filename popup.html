@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>图片和Base64互转</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="image-upload">
+      <h2>上传图片</h2>
+      <input type="file" id="file-input">
+      <textarea id="image-output" placeholder="粘贴图片到此处"></textarea>
+      <img id="base64-output" alt="转换后的图片" style="display: none">
+    </div>
+    <div id="base64-input">
+      <h2>输入Base64</h2>
+      <textarea id="base64-input-box" placeholder="粘贴图片Base64到此处"></textarea>
+    </div>
+    <button id="convert-button">转换</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
